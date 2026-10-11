@@ -12,7 +12,7 @@
 <img alt="Status: published" src="https://img.shields.io/badge/status-published-1f6feb?style=flat-square">
 <img alt="Updated: October 2026" src="https://img.shields.io/badge/updated-October%202026-0b2545?style=flat-square">
 <img alt="Focus: Agentic AI, NIS2, CRA, GRC" src="https://img.shields.io/badge/focus-Agentic%20AI%20%C2%B7%20NIS2%20%C2%B7%20CRA%20%C2%B7%20GRC-b91c1c?style=flat-square">
-<img alt="Author: HEIC Ltd." src="https://img.shields.io/badge/author-HEIC%20Ltd.-0b2545?style=flat-square">
+<img alt="Author: HEIC Ltd." src="https://heic.eu">
 </p>
 
 </div>
