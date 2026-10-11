@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 360" width="1120" height="360" role="img" aria-label="Agent attack chain from injected content to cascading failure, with four control families that limit each stage">
+  <defs>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b91c1c"/></marker>
+    <marker id="arrNavy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6feb"/></marker>
+  </defs>
+  <rect width="1120" height="360" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="20" y="30" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0b2545">Agent attack chain and where the controls bite</text>
+
+  <!-- Attack chain -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">
+    <rect x="20" y="55" width="200" height="60" rx="8" fill="#7f1d1d"/>
+    <text x="120" y="82">Injected content /</text><text x="120" y="100">poisoned input</text>
+    <rect x="300" y="55" width="200" height="60" rx="8" fill="#b91c1c"/>
+    <text x="400" y="82" font-weight="700">ASI01</text><text x="400" y="100">Agent goal hijack</text>
+    <rect x="580" y="55" width="200" height="60" rx="8" fill="#b91c1c"/>
+    <text x="680" y="82" font-weight="700">ASI02</text><text x="680" y="100">Tool misuse</text>
+    <rect x="860" y="55" width="200" height="60" rx="8" fill="#b91c1c"/>
+    <text x="960" y="82" font-weight="700">ASI08</text><text x="960" y="100">Cascading failure</text>
+  </g>
+  <g stroke="#b91c1c" stroke-width="2.5" fill="none">
+    <line x1="222" y1="85" x2="296" y2="85" marker-end="url(#arrRed)"/>
+    <line x1="502" y1="85" x2="576" y2="85" marker-end="url(#arrRed)"/>
+    <line x1="782" y1="85" x2="856" y2="85" marker-end="url(#arrRed)"/>
+  </g>
+
+  <!-- Control links -->
+  <g stroke="#1f6feb" stroke-width="2" stroke-dasharray="6 5" fill="none">
+    <line x1="345" y1="240" x2="395" y2="119" marker-end="url(#arrNavy)"/>
+    <line x1="565" y1="240" x2="660" y2="119" marker-end="url(#arrNavy)"/>
+    <line x1="785" y1="240" x2="700" y2="119" marker-end="url(#arrNavy)"/>
+    <line x1="1005" y1="240" x2="965" y2="119" marker-end="url(#arrNavy)"/>
+  </g>
+
+  <!-- Controls -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" fill="#0b2545">
+    <rect x="250" y="240" width="190" height="90" rx="8" fill="#e8f0fe" stroke="#1f6feb"/>
+    <text x="345" y="268" font-weight="700">Continuous GRC +</text><text x="345" y="286" font-weight="700">AI governance</text>
+    <text x="345" y="310" font-size="12" font-style="italic">evidence and control</text>
+
+    <rect x="470" y="240" width="190" height="90" rx="8" fill="#e8f0fe" stroke="#1f6feb"/>
+    <text x="565" y="268" font-weight="700">Zero Trust +</text><text x="565" y="286" font-weight="700">microsegmentation</text>
+    <text x="565" y="310" font-size="12" font-style="italic">limits reach</text>
+
+    <rect x="690" y="240" width="190" height="90" rx="8" fill="#e8f0fe" stroke="#1f6feb"/>
+    <text x="785" y="268" font-weight="700">Ephemeral machine</text><text x="785" y="286" font-weight="700">identity</text>
+    <text x="785" y="310" font-size="12" font-style="italic">limits credential value</text>
+
+    <rect x="910" y="240" width="190" height="90" rx="8" fill="#e8f0fe" stroke="#1f6feb"/>
+    <text x="1005" y="268" font-weight="700">24/7 detection +</text><text x="1005" y="286" font-weight="700">human-in-the-loop</text>
+    <text x="1005" y="310" font-size="12" font-style="italic">stops escalation</text>
+  </g>
+  <text x="20" y="345" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#57606a">Risk IDs: OWASP Top 10 for Agentic Applications. Control mapping: HEIC view.</text>
+</svg>
