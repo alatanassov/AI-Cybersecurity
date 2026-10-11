@@ -189,7 +189,7 @@ This dossier synthesises three inputs: the Statista finance whitepaper *Investme
 
 <div align="center">
 
-<b>Alexander Atanassov</b> - Lead Auditor and GRC Consultant, <a href="https://github.com/YOUR-ORG">HEIC Ltd.</a><br>
+<b>Alexander Atanassov</b> - Lead Auditor and GRC Consultant, <a href=HEIC Ltd.</a><br>
 Quality - Information Security - AI Governance - Integrated Management Systems<br>
 <br>
 &copy; 2026 HEIC Ltd. Shared for information purposes.
