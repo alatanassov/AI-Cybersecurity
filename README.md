@@ -18,9 +18,7 @@
 
 ---
 
-> **TL;DR**
->
-> - Agentic AI is moving from pilot to production while two EU laws put personal accountability and hard deadlines on security failures.
+> Agentic AI is moving from pilot to production while two EU laws put personal accountability and hard deadlines on security failures.
 > - Capital should follow the *blast radius*: **(1)** Zero Trust and microsegmentation, **(2)** machine identity with ephemeral credentials, **(3)** continuous GRC plus AI governance, **(4)** detection capacity and human oversight.
 > - Since **11 September 2026**, CRA vulnerability and incident reporting is no longer a future project. It is live.
 
